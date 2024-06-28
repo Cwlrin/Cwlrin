@@ -23,6 +23,6 @@ jobs:
           SHOW_OS: "False" # 显示系统
           SHOW_PROJECTS: "False" # 显示项目
           SHOW_EDITORS: "True" # 编辑器
-          SHOW_LANGUAGE_PER_REPO: "TFalse" # 不同语言和框架中的存储库数量
+          SHOW_LANGUAGE_PER_REPO: "False" # 不同语言和框架中的存储库数量
           SHOW_SHORT_INFO: "False" # 用户的简短趣闻信息
           SHOW_LOC_CHART: "False" # 年份不同季度编写的代码行数
