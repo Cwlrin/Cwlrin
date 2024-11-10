@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Jost&size=24&pause=1000&color=7799EE&vCenter=true&multiline=true&random=false&width=435&height=100&lines=Hi+there;I'm+Sakurakouji+Nanaha;You+can+also+tell+me+Cwlrin%E2%98%86)
 ---
 <p align="center">
-  <img src="https://image.cwlrin.wiki/images/2024/11/09/1000015899.png" alt="ichika" border="0" />
+  <img src="https://image.cwlrin.wiki/images/2024/11/09/1000015899.md.png" alt="ichika" border="0" />
 </p>
 
 ---
