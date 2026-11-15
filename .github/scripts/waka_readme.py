@@ -24,16 +24,17 @@ LIGHT = chr(0x2591)
 def fetch_stats():
     key = os.environ.get("WAKATIME_API_KEY", "")
     print("key_len=%d" % len(key))
-    url = API + "?api_key=" + key
-    req = urllib.request.Request(url, headers={"User-Agent": "waka-readme-script"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.load(resp)["data"]
-    except urllib.error.HTTPError as exc:
-        print("HTTP %s: %s" % (exc.code, exc.read()[:400].decode("utf-8", "replace")))
-        raise
-
-
+    attempts = [
+        ("bearer", API, {"User-Agent": "waka-readme-script", "Authorization": "Bearer " + key}),
+        ("apikey", API + "?api_key=" + key, {"User-Agent": "waka-readme-script"}),
+    ]
+    for mode, url, headers in attempts:
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as resp:
+                return json.load(resp)["data"]
+        except urllib.error.HTTPError as exc:
+            print("%s -> HTTP %s: %s" % (mode, exc.code, exc.read()[:300].decode("utf-8", "replace")))
+    raise SystemExit("WakaTime auth failed: replace the WAKATIME_API_KEY secret with a personal OAuth token from https://wakatime.com/oauth")
 def duration(total_seconds):
     seconds = int(total_seconds or 0)
     hours, minutes = seconds // 3600, (seconds % 3600) // 60
