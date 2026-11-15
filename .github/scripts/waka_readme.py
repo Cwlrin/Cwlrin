@@ -7,6 +7,7 @@ import json
 import os
 import re
 import subprocess
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
@@ -21,11 +22,16 @@ LIGHT = chr(0x2591)
 
 
 def fetch_stats():
-    key = os.environ["WAKATIME_API_KEY"]
+    key = os.environ.get("WAKATIME_API_KEY", "")
+    print("key_len=%d" % len(key))
     url = API + "?api_key=" + key
     req = urllib.request.Request(url, headers={"User-Agent": "waka-readme-script"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)["data"]
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.load(resp)["data"]
+    except urllib.error.HTTPError as exc:
+        print("HTTP %s: %s" % (exc.code, exc.read()[:400].decode("utf-8", "replace")))
+        raise
 
 
 def duration(total_seconds):
