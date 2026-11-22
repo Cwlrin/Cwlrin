@@ -21,17 +21,17 @@
 🕑︎ Time Zone: Asia/Hong_Kong
 
 💬 Programming Languages: 
-Other                     17 hrs 10 mins      █████████████████████░░░░    85.71 % 
-Markdown                  2 hrs 51 mins       ████░░░░░░░░░░░░░░░░░░░░░    14.29 % 
+Other                     12 hrs 2 mins       ███████████████████████░░    93.51 % 
+Markdown                  50 mins             ██░░░░░░░░░░░░░░░░░░░░░░░     6.49 % 
 
 🔥 Editors: 
-Edge                      14 hrs 9 mins       ██████████████████░░░░░░░    70.65 % 
-DSHTauri                  5 hrs 50 mins       ███████░░░░░░░░░░░░░░░░░░    29.15 % 
-Typora                    2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░     0.20 % 
+Edge                      7 hrs 58 mins       ████████████████░░░░░░░░░    62.01 % 
+DSHTauri                  4 hrs 50 mins       █████████░░░░░░░░░░░░░░░░    37.68 % 
+Typora                    2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░     0.31 % 
 
 💻 Operating System: 
-Windows                   20 hrs 2 mins       █████████████████████████   100.00 % 
+Windows                   12 hrs 52 mins      █████████████████████████   100.00 % 
 ```
 
- Last Updated on 11/21/2026 05:26:45 UTC
+ Last Updated on 11/22/2026 04:51:55 UTC
 <!--END_SECTION:waka-->
