@@ -15,23 +15,5 @@
 </p>
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On**
-
-```text
-🕑︎ Time Zone: Asia/Hong_Kong
-
-💬 Programming Languages: 
-Other                     2 hrs 11 mins       ████████████████████████░    95.53 % 
-Markdown                  6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░     4.47 % 
-
-🔥 Editors: 
-Edge                      1 hrs 13 mins       █████████████░░░░░░░░░░░░    53.55 % 
-DSHTauri                  1 hrs 1 mins        ███████████░░░░░░░░░░░░░░    44.69 % 
-Typora                    2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░     1.77 % 
-
-💻 Operating System: 
-Windows                   2 hrs 17 mins       █████████████████████████   100.00 % 
-```
-
- Last Updated on 11/25/2026 06:48:17 UTC
+No coding activity recorded in the last 7 days.
 <!--END_SECTION:waka-->
