@@ -15,5 +15,22 @@
 </p>
 
 <!--START_SECTION:waka-->
-No coding activity recorded in the last 7 days.
+📊 **This Week I Spent My Time On**
+
+```text
+🕑︎ Time Zone: Asia/Hong_Kong
+
+💬 Programming Languages: 
+Other                     49 mins             █████████████████████░░░░    84.40 % 
+Markdown                  9 mins              ████░░░░░░░░░░░░░░░░░░░░░    15.60 % 
+
+🔥 Editors: 
+Edge                      47 mins             ████████████████████░░░░░    81.56 % 
+DSHTauri                  10 mins             █████░░░░░░░░░░░░░░░░░░░░    18.44 % 
+
+💻 Operating System: 
+Windows                   58 mins             █████████████████████████   100.00 % 
+```
+
+ Last Updated on 11/28/2026 06:05:48 UTC
 <!--END_SECTION:waka-->
